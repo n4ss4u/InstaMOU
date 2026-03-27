@@ -1,5 +1,7 @@
 from playwright.sync_api import sync_playwright
 
+from context import context as ctx
+
 def start_browser():
     p = sync_playwright().start()
 
@@ -30,4 +32,10 @@ def start_browser():
         });
     """)
 
-    return p, browser, context, page
+    
+    ctx.PLAYWRIGTH = p
+    ctx.BROWSER = browser
+    ctx.CONTEXT = context
+    ctx.PAGE = page
+
+    return
