@@ -1,16 +1,18 @@
 # InstaMOU
 
-InstaMOU is an OSINT-oriented tool designed to extract publicly accessible information from Instagram through modular and automated techniques.
+InstaMOU is an OSINT oriented tool designed to extract publicly accessible information from Instagram through modular and automated techniques.
 
 InstaMOU is built around a modular architecture that allows the integration of multiple data extraction techniques focused on Instagram. Each module is responsible for a specific task
+
+![Screenshot 1](https://raw.githubusercontent.com/n4ss4u/InstaMOU/refs/heads/main/media/screenshot1.png)
 
 ---
 
 ## Modules
 
-InstaMOU uses a module-based system. Each module performs a specific type of extraction or enumeration.
+InstaMOU uses a module based system. Each module performs a specific type of extraction or enumeration.
 
-- data_hint_extract → Extracts masked email/phone hints from the password recovery flow
+- data_hint_extract: Extracts masked email/phone hints from the password recovery flow
 - (more modules coming soon)
 
 ---
