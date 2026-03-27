@@ -17,11 +17,11 @@ InstaMOU uses a module-based system. Each module performs a specific type of ext
 
 ## 🚀 Getting Started
 
-```git clone https://github.com/n4ss4u/InstaMOU```
-```cd InstaMOU```
-```pip install -r requirements.txt```
-```playwright install chromium```
-```python instamou.py [MODULE] [USERNAME]```
+- ```git clone https://github.com/n4ss4u/InstaMOU```
+- ```cd InstaMOU```
+- ```pip install -r requirements.txt```
+- ```playwright install chromium```
+- ```python instamou.py [MODULE] [USERNAME]```
 
 ---
 
